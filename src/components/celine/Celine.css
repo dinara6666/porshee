@@ -1,0 +1,87 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes glow {
+    0%, 100% {
+        filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.8));
+    }
+    50% {
+        filter: drop-shadow(0 0 20px rgba(255, 255, 0, 1));
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.h22 {
+    animation: fadeIn 1s ease-in-out;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.car1 {
+    border-radius: 20px;
+    width: 200px;
+    max-width: 100%;
+    animation: fadeIn 1.5s ease-in-out, glow 2s infinite alternate, float 3s infinite ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.car1:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 780px) {
+    .cars {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .car1 {
+        width: 45%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cars {
+        flex-direction: column;
+    }
+
+    .car1 {
+        width: 90%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 320px) {
+    .car1 {
+        width: 100%;
+        max-width: 300px;
+    }
+}
