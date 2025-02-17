@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./CarList.css";
 import shop1 from "../../assets/shop1.jpg";
 import shop2 from "../../assets/kia5.jpg";

@@ -106,7 +106,7 @@ const Porsh = () => {
 const CarList = ({ cars }) => {
     const { addToCart } = useContext(CartContext);
     return (
-        <div className="car-list">
+        <div className="list">
             {cars.map(car => (
                 <Card key={car.id} title={car.model} extra={<Link to={`/car/${car.id}`}>Подробнее</Link>} className="car-card">
                     <p>Марка: {car.brand}</p>
@@ -119,12 +119,19 @@ const CarList = ({ cars }) => {
     );
 };
 
+
+
+
+
+
+
 const Cart = () => {
     const { cart } = useContext(CartContext);
     return (
+
         <div className="cart">
             <h2 className="white-text">Корзина</h2>
-            {cart.length === 0 ? <p>Корзина пуста</p> : (
+            {cart.length === 0 ? <p>Корзина пуста...</p> : (
                 <ul>
                     {cart.map((car) => (
                         <li key={car.id}>{car.model} - {car.price} $</li>
@@ -147,5 +154,9 @@ const Cart = () => {
         </div>
     );
 };
+
+
+
+
 
 export default Porsh;
