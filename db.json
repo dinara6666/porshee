@@ -1,0 +1,379 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "price": 25000,
+      "image": "https://www.thedrive.com/wp-content/uploads/2024/08/exterior-2025-Camry-img_8219.jpg?quality=85",
+      "mileage": 15000,
+      "engine": "2.5L I4",
+      "horsepower": 203,
+      "fuelType": "Gasoline",
+      "description": "Надежный и экономичный седан для повседневного использования."
+    },
+
+
+    {
+      "id": "20",
+      "brand": "Mercedes-Benz",
+      "model": "VISION AVTR",
+      "year": 2024,
+      "price": 1500000,
+      "image": "https://www.motortrend.com/uploads/2022/12/Mercedes-Benz-Vision-AVTR-Concept-25.jpg?w=768&width=768&q=75&format=webp",
+      "mileage": "0",
+      "engine": "Электрический",
+      "horsepower": "469",
+      "fuelType": "Электро",
+      "description": " 'Аватар'. Оснащен бионическими сенсорами и управлением жестами."
+    },
+    {
+      "id": "21",
+      "brand": "Kia",
+      "model": "Sportage",
+      "year": 2024,
+      "price": 35000,
+      "image": "https://i.obozrevatel.com/news/2024/11/5/2025-kia-sportage.jpg?size=1944x924",
+      "mileage": "0",
+      "engine": "1.6 T-GDI / 2.0 MPI",
+      "horsepower": "177 / 150",
+      "fuelType": "Бензин / Дизель",
+      "description": "Современный кроссовер с обновленным дизайном,"
+    },
+
+
+
+    {
+      "id": "19",
+      "brand": "Ferrari",
+      "model": "SF90 Stradale",
+      "year": 2024,
+      "price": 500000,
+      "image": "https://5sector.com.ua/wp-content/uploads/2023/12/Ferrari-SF90-Stradale-Model-124-Krasnyy-1.jpg",
+      "mileage": 3000,
+      "engine": "4.0L V8 Plug-in Hybrid",
+      "horsepower": 986,
+      "fuelType": "Hybrid",
+      "description": "Флагманский суперкар с гибридным приводом и потрясающей динамикой."
+    },
+    {
+      "id": "2",
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2021,
+      "price": 50000,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/p90495464-1677001974.jpg?crop=0.720xw:0.608xh;0.250xw,0.329xh&resize=1200:*",
+      "mileage": 30000,
+      "engine": "3.0L I6 Turbo",
+      "horsepower": 335,
+      "fuelType": "Gasoline",
+      "description": "Комфортный и мощный кроссовер с передовыми технологиями."
+    },
+    {
+      "id": "3",
+      "brand": "Mercedes",
+      "model": "C-Class",
+      "year": 2023,
+      "price": 55000,
+      "image": "https://s.auto.drom.ru/i24254/c/photos/fullsize/mercedes-benz/c-class/gen473_mercedes-benz_c-class_997446.jpg",
+      "mileage": 10000,
+      "engine": "2.0L I4 Turbo",
+      "horsepower": 255,
+      "fuelType": "Gasoline",
+      "description": "Элегантный седан с передовыми технологиями и комфортным салоном."
+    },
+    {
+      "id": "4",
+      "brand": "Porsche",
+      "model": "911 Turbo S",
+      "year": 2024,
+      "price": 230000,
+      "image": "https://maxtondesign.com/eng_pl_Set-of-Splitters-Porsche-911-Turbo-S-Sport-Package-992-22085_8.jpg",
+      "mileage": 5000,
+      "engine": "3.8L H6 Turbo",
+      "horsepower": 640,
+      "fuelType": "Gasoline",
+      "description": "Спортивный автомобиль с невероятной динамикой и управляемостью."
+    },
+    {
+      "id": "5",
+      "brand": "Bugatti",
+      "model": "Chiron",
+      "year": 2023,
+      "price": 3000000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/2022_Bugatti_Centodieci_in_Grigio_Chiaro%2C_front_left.jpg/640px-2022_Bugatti_Centodieci_in_Grigio_Chiaro%2C_front_left.jpg",
+      "mileage": 2000,
+      "engine": "8.0L W16 Quad-Turbo",
+      "horsepower": 1500,
+      "fuelType": "Gasoline",
+      "description": "Гиперкар с невероятной мощностью и аэродинамикой."
+    },
+    {
+      "id": "8",
+      "brand": "Lamborghini",
+      "model": "Aventador SVJ",
+      "year": 2023,
+      "price": 600000,
+      "image": "https://res.cloudinary.com/unix-center/image/upload/c_limit,dpr_3.0,f_auto,fl_progressive,g_center,h_240,q_auto:good,w_385/o28udbvaff0u8xswtull.jpg",
+      "mileage": 3000,
+      "engine": "6.5L V12",
+      "horsepower": 770,
+      "fuelType": "Gasoline",
+      "description": "Экстремальный суперкар с невероятной мощностью и аэродинамикой."
+    },
+    {
+      "id": "10",
+      "brand": "Tesla",
+      "model": "Cybertruck",
+      "year": 2024,
+      "price": 80000,
+      "image": "https://s0.rbk.ru/v6_top_pics/media/img/1/30/756430426456301.jpg",
+      "mileage": 0,
+      "engine": "Tri-Motor Electric",
+      "horsepower": 800,
+      "fuelType": "Electric",
+      "description": "Футуристичный электрический пикап с высокой проходимостью и мощностью."
+    },
+    {
+      "id": "13",
+      "brand": "Lucid",
+      "model": "Air",
+      "year": 2024,
+      "price": 77000,
+      "image": "https://lucidmotors.com/s3fs-public/2022-10/slideshow-00-regular.webp",
+      "mileage": 0,
+      "engine": "Dual-Motor Electric",
+      "horsepower": 1080,
+      "fuelType": "Electric",
+      "description": "Роскошный электроседан с впечатляющим запасом хода и производительностью."
+    },
+    {
+      "id": "15",
+      "brand": "Chevrolet",
+      "model": "Corvette Z06",
+      "year": 2024,
+      "price": 105000,
+      "image": "https://motor.ru/thumb/1500x0/filters:quality(75):no_upscale()/imgs/2023/02/12/20/5792821/00d1b8c64627d1d3600f580196678a2299b85640.jpg",
+      "mileage": 1000,
+      "engine": "5.5L V8 NA",
+      "horsepower": 670,
+      "fuelType": "Gasoline",
+      "description": "Высокопроизводительный спортивный автомобиль с гоночной ДНК."
+    },
+    {
+      "id": "16",
+      "brand": "Rolls-Royce",
+      "model": "Ghost",
+      "year": 2024,
+      "price": 400000,
+      "image": "https://vehicle-photos-published.vauto.com/2b/f7/8c/60-4c59-4c35-b5f8-1119b2e199f0/image-1.jpg",
+      "mileage": 500,
+      "engine": "6.75L V12 Twin-Turbo",
+      "horsepower": 563,
+      "fuelType": "Gasoline",
+      "description": "Роскошный седан с непревзойденным комфортом и изысканным дизайном."
+    },
+    {
+      "id": "16",
+      "brand": "Kia",
+      "model": "K5",
+      "year": 2024,
+      "price": 30000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/1588575/3565d5735eee7c3aeca7d004d00a76ea/1200x900",
+      "mileage": 5000,
+      "engine": "2.5L I4 Turbo",
+      "horsepower": 290,
+      "fuelType": "Gasoline",
+      "description": "Стильный седан с агрессивным дизайном и динамичными характеристиками."
+    },
+    {
+      "id": "17",
+      "brand": "Zeekr",
+      "model": "001",
+      "year": 2024,
+      "price": 68000,
+      "image": "https://car-images.bauersecure.com/wp-images/171657/92-zeekr-001-rear34.jpg",
+      "mileage": 0,
+      "engine": "Dual-Motor Electric",
+      "horsepower": 544,
+      "fuelType": "Electric",
+      "description": "Современный электрический кросс-купе с высокой производительностью и запасом хода."
+    },
+    {
+      "id": "18",
+      "brand": "Lexus",
+      "model": "RX 500h",
+      "year": 2024,
+      "price": 65000,
+      "image": "https://autodnk.com/wp-content/uploads/2024/08/2025-lexus-rx-500h-1.webp",
+      "mileage": 1000,
+      "engine": "2.4L Turbo Hybrid",
+      "horsepower": 366,
+      "fuelType": "Hybrid",
+      "description": "Роскошный гибридный кроссовер с премиальными технологиями и комфортом."
+    },
+
+    {
+      "id": "22",
+      "brand": "Bugatti",
+      "model": "La Voiture Noire",
+      "year": 2024,
+      "price": 18000000,
+      "image": "https://67cdn.co.uk/137/3/424906/1730997583672ced4fe214e_0s2a2487.jpg?width=479&height=352&crop=auto",
+      "mileage": "0",
+      "engine": "8.0 W16 Quad-Turbo",
+      "horsepower": "1500",
+      "fuelType": "Бензин",
+      "description": "Один из самых дорогих автомобилей в мире, созданный в единственном экземпляре с уникальным дизайном и невероятной мощностью."
+    },
+
+
+
+
+
+
+
+    {
+      "id": "23",
+      "brand": "Rimac",
+      "model": "Nevera",
+      "year": 2024,
+      "price": 2200000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rimac_Nevera.jpg/1200px-Rimac_Nevera.jpg",
+      "mileage": "0",
+      "engine": "4 электромотора",
+      "horsepower": "1914",
+      "fuelType": "Электро",
+      "description": "Электрический гиперкар с потрясающей динамикой: разгон до 100 км/ч всего за 1.85 секунды."
+    },
+    {
+      "id": "24",
+      "brand": "Porsche",
+      "model": "Taycan Turbo S",
+      "year": 2024,
+      "price": 185000,
+      "image": "https://www.galleriatr.com/B2ELResim/AracResim2El/1119/1b0e34d9-b3b7-47cb-b56a-5b3f509ad524_Buyuk.jpg",
+      "mileage": "0",
+      "engine": "Электромотор",
+      "horsepower": "761",
+      "fuelType": "Электро",
+      "description": "Электрический спортседан с потрясающим ускорением, роскошным салоном и передовыми технологиями."
+    },
+    {
+      "id": "25",
+      "brand": "McLaren",
+      "model": "Artura",
+      "year": 2024,
+      "price": 250000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/2021_McLaren_Artura_%281%29.jpg/800px-2021_McLaren_Artura_%281%29.jpg",
+      "mileage": "0",
+      "engine": "3.0 V6 Hybrid",
+      "horsepower": "680",
+      "fuelType": "Гибрид",
+      "description": "Гибридный суперкар с потрясающей динамикой и уникальным дизайном, ориентированным на аэродинамику."
+    },
+    {
+      "id": "26",
+      "brand": "Aston Martin",
+      "model": "Valhalla",
+      "year": 2024,
+      "price": 800000,
+      "image": "https://www.turbo.fr/sites/default/files/styles/header_image/public/2022-11/IMG_8158.jpg?itok=E2_H9vKr",
+      "mileage": "0",
+      "engine": "4.0 V8 Twin-Turbo Hybrid",
+      "horsepower": "937",
+      "fuelType": "Гибрид",
+      "description": "Футуристичный гибридный суперкар с потрясающим дизайном и эксклюзивными технологиями от Aston Martin."
+    },
+    {
+      "id": "27",
+      "brand": "Lamborghini",
+      "model": "Revuelto",
+      "year": 2024,
+      "price": 600000,
+      "image": "https://i0.wp.com/asphalt9.info/wp-content/uploads/2020/12/Bugatti-La-Voiture-Noire.jpg?fit=1062%2C588&ssl=1",
+      "mileage": "0",
+      "engine": "6.5 V12 Hybrid",
+      "horsepower": "1015",
+      "fuelType": "Гибрид",
+      "description": "Новый гибридный суперкар от Lamborghini, объединяющий легендарный V12 с тремя электромоторами для невероятной мощности и динамики."
+    }
+
+
+  ],
+  "orders": [
+    {
+      "id": "0e6a",
+      "carId": "19",
+      "customer": "User",
+      "date": "2025-02-19T08:22:05.616Z"
+    },
+    {
+      "id": "f711",
+      "carId": "16",
+      "customer": "User",
+      "date": "2025-02-19T08:22:08.414Z"
+    },
+    {
+      "id": "32fa",
+      "carId": "16",
+      "customer": "User",
+      "date": "2025-02-19T08:22:10.401Z"
+    },
+    {
+      "id": "c58e",
+      "carId": "16",
+      "customer": "User",
+      "date": "2025-02-19T08:22:11.628Z"
+    },
+    {
+      "id": "6630",
+      "carId": "19",
+      "customer": "User",
+      "date": "2025-02-19T08:22:14.145Z"
+    },
+    {
+      "id": "a602",
+      "carId": "19",
+      "customer": "User",
+      "date": "2025-02-19T08:22:48.035Z"
+    },
+    {
+      "id": "1339",
+      "carId": "15",
+      "customer": "User",
+      "date": "2025-02-19T08:29:29.544Z"
+    },
+    {
+      "id": "8c2b",
+      "carId": "13",
+      "customer": "User",
+      "date": "2025-02-19T08:29:30.892Z"
+    },
+    {
+      "id": "bf49",
+      "carId": "5",
+      "customer": "User",
+      "date": "2025-02-19T08:31:18.887Z"
+    },
+    {
+      "id": "24ef",
+      "carId": "8",
+      "customer": "User",
+      "date": "2025-02-19T08:31:20.038Z"
+    },
+    {
+      "id": "9c7b",
+      "carId": "10",
+      "customer": "User",
+      "date": "2025-02-19T08:31:21.233Z"
+    },
+    {
+      "id": "7556",
+      "carId": "2",
+      "customer": "User",
+      "date": "2025-02-19T08:55:33.046Z"
+    }
+  ]
+}

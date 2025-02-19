@@ -2,13 +2,9 @@ import React, {useContext} from "react";
 import {Button, Form, Input, Layout, Menu, Select} from "antd";
 import {BrowserRouter as Router, Link, Route, Routes} from "react-router-dom";
 
-
 const Cart = () => {
     const { cart } = useContext(CartContext);
     return (
-
-
-
         <div className="cart">
             <h2 className="white-text">Корзина</h2>
             {cart.length === 0 ? <p>Корзина пуста</p> : (

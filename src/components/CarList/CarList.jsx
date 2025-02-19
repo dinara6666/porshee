@@ -4,6 +4,8 @@ import shop1 from "../../assets/shop1.jpg";
 import shop2 from "../../assets/kia5.jpg";
 import shop3 from "../../assets/zeekr001.jpg";
 import shop4 from "../../assets/lexux.jpg";
+import shop5 from "../../assets/cybertruck1.jpg"
+import shop6 from "../../assets/shop6.jpg"
 
 const cars = [
     {
@@ -46,6 +48,29 @@ const cars = [
         location: "Казань, 1 день назад",
         photo: shop4
     },
+
+    {
+        name: "Tesla Cybertruck",
+        year: 2024,
+        mileage: "2 000 км",
+        engine: "Электро / 600 л.с.",
+        drive: "Полный привод",
+        price: "22 000 000 руб.",
+        location: "Москва, 2 часа назад",
+        photo: shop5
+    },
+    {
+        name: "Mercedes-Benz G-Class",
+        year: 2023,
+        mileage: "10 000 км",
+        engine: "4.0 л / 585 л.с. / Бензин",
+        drive: "Полный привод",
+        price: "19 500 000 руб.",
+        location: "Санкт-Петербург, 3 часа назад",
+        photo: shop6
+    }
+
+
 ];
 
 export default function CarList() {

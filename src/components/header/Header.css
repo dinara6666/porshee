@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.head{
+    pp{
+        margin: 0;
+        display: flex;
+        padding: 0;
+    }
+
+    h2{
+        font-size:30px;
+        margin-top: 10px;
+        position: relative;
+        top: 10px;
+    }
+}
+
+.nol{
+    display: flex;
+    margin-left: 400px;
+    font-size: 22px;
+
+    p{
+
+        display: inline-block;
+        color: var(--text-color);
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+:root {
+    --bg-color: white;
+    --text-color: black;
+}
+
+[data-theme="dark"] {
+    --bg-color: black;
+    --text-color: white;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background: var(--bg-color);
+    color: var(--text-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    width: 100%;
+    position: relative; /* Или удали эту строку */
+}
+
+
+
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+
+
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+
+@media (max-width: 900px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .nav {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: var(--bg-color);
+        flex-direction: column;
+        width: 200px;
+        text-align: center;
+        gap: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transform: translateX(100%);
+        transition: 0.3s;
+    }
+
+    .nav.open {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+.loader {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.truckWrapper {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: hidden;
+}
+
+.truckBody {
+    width: 130px;
+    height: fit-content;
+    margin-bottom: 6px;
+    animation: motion 1s linear infinite;
+}
+
+@keyframes motion {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.truckTires {
+    width: 130px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 15px;
+    position: absolute;
+    bottom: 0;
+}
+.truckTires svg {
+    width: 24px;
+}
+
+.road {
+    width: 100%;
+    height: 1.5px;
+    background-color: #282828;
+    position: relative;
+    bottom: 0;
+    align-self: flex-end;
+    border-radius: 3px;
+}
+.road::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    background-color: #282828;
+    right: -50%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 10px solid white;
+}
+.road::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: #282828;
+    right: -65%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 4px solid white;
+}
+
+.lampPost {
+    position: absolute;
+    bottom: 0;
+    right: -90%;
+    height: 90px;
+    animation: roadAnimation 1.4s linear infinite;
+}
+
+@keyframes roadAnimation {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-350px);
+    }
+}
+
+
+
+
+

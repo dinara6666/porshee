@@ -23,3 +23,42 @@
     padding: 0 15px;
   }
 }
+
+
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+[data-theme="dark"] {
+  --bg-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+* {
+  color: var(--text-color);
+}
+
+.theme-button {
+  background: var(--text-color);
+  color: var(--bg-color);
+  border: 2px solid var(--text-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+
+.theme-button:hover {
+  opacity: 0.8;
+}
+

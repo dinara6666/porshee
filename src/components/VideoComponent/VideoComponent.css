@@ -1,0 +1,102 @@
+
+.swiper-container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.video-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-slide video {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.video-slide video:hover {
+    transform: scale(1.05);
+}
+
+.button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+.button.play {
+    background-color: #4CAF50;
+}
+
+.button.stop {
+    background-color: #FF5733;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.h23 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+@media (max-width: 1200px) {
+    .swiper-container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 992px) {
+    .swiper-container {
+        width: 100%;
+    }
+    .h23 {
+        font-size: 2rem;
+        color: var(--text-color);
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .h23 {
+        font-size: 1.8rem;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .h23 {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
